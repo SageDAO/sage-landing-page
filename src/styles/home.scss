@@ -84,7 +84,7 @@ html {
 	align-items: center;
 	text-align: center;
 	line-height: 64px;
-	font-size: 3vw;
+	font-size: min(48px, 3vw);
 	font-weight: 600;
 	letter-spacing: 8px;
 	// animation-name: animate-circle;
