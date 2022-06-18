@@ -1,6 +1,10 @@
 @use "./reset";
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+@font-face {
+	font-family: "Univers 55 Roman";
+	src: url("/Univers 55 Roman/Univers 55 Roman.otf") format("opentype");
+}
 
 html {
 	overflow-x: hidden;
@@ -28,7 +32,7 @@ html {
 }
 
 .home {
-	font-family: "Roboto", Arial;
+	font-family: "Univers 55 Roman";
 	width: 100vw;
 	background-color: #ffffff;
 }
@@ -36,7 +40,7 @@ html {
 .hero {
 	position: relative;
 	width: 100%;
-	height: min(80vh, 90vw);
+	height: 100vh;
 	display: flex;
 	gap: 16px;
 	flex-direction: column;
@@ -49,11 +53,8 @@ html {
 	font-size: min(200px, 20vw);
 	font-weight: 600;
 	text-transform: uppercase;
-	text-shadow: 0px 0px 4px black;
 	cursor: default;
-	animation-name: animate-title;
-	animation-duration: 5s;
-	animation-timing-function: ease-in;
+	// animation-name: animate-title;
 }
 
 .hero__subtitle {
@@ -62,9 +63,9 @@ html {
 	letter-spacing: 10px;
 
 	line-height: 40px;
-	animation-name: animate-subtitle;
-	animation-duration: 5s;
-	animation-timing-function: ease-out;
+	// animation-name: animate-subtitle;
+	// animation-duration: 5s;
+	// animation-timing-function: ease-out;
 }
 
 .second {
