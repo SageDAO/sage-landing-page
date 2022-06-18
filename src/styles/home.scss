@@ -1,9 +1,13 @@
 @use "./reset";
 
-
 @font-face {
 	font-family: "Univers 55 Roman";
 	src: url("/Univers 55 Roman/Univers 55 Roman.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Univers 55 Bold";
+	src: url("/Univers 55 Bold/Univers 55 Bold.ttf") format("truetype");
 }
 
 html {
@@ -32,7 +36,7 @@ html {
 }
 
 .home {
-	font-family: "Univers 55 Roman";
+	font-family: "Univers 55 Bold";
 	width: 100vw;
 	background-color: #ffffff;
 }
@@ -50,8 +54,8 @@ html {
 }
 
 .hero__title {
-	font-size: min(144px, 20vw);
-	font-weight: 600;
+	font-size: min(72px, 20vw);
+	font-weight: Bold;
 	text-transform: uppercase;
 	cursor: default;
 	// animation-name: animate-title;
@@ -59,10 +63,9 @@ html {
 
 .hero__subtitle {
 	font-size: min(24px, 5vw);
-	font-weight: 600;
-	letter-spacing: 8px;
+	font-weight: 700;
 
-	line-height: 40px;
+	line-height: 28px;
 	// animation-name: animate-subtitle;
 	// animation-duration: 5s;
 	// animation-timing-function: ease-out;
