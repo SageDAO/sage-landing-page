@@ -9,7 +9,7 @@ export default function Home() {
 			<section className="hero">
 				<h1 className="hero__title">SAGE</h1>
 				<h2 className="hero__subtitle">
-					Crafting most fair products <br /> and experiences in Web3
+					Crafting most fair products <br /> and experiences in Metaverse
 				</h2>
 			</section>
 		</div>
